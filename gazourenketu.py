@@ -31,6 +31,7 @@ img_x = np.vstack((np.hstack(d[0:4]),
 img_x = cv2.cvtColor(img_x, cv2.COLOR_BGR2RGB)
 cv2.imshow('img_after', img_x)
 cv2.imwrite(f'.result{s}.png', img_x)
+print('aaaaaa')
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
